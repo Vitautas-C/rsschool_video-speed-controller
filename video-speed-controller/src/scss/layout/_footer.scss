@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(/fonts/Lato/Lato-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(/fonts/Lato/Lato-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(/fonts/Lato/Lato-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+// @media screen and (min-width: 1020px) {
+//     .wrapper {}
+// }
+// @media screen and (max-width: 1020px) and (min-width: 768px) {
+//     .wrapper {}
+// }
+// @media screen and (max-width: 768px) and (min-width: 375px) {
+//     .wrapper {}
+// }
+// @media screen and (max-width: 375px) {
+//     .wrapper {}
+// }
