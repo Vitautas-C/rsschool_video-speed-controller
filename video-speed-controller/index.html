@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study projects</title>
+    <script src="https://kit.fontawesome.com/e8eebc1614.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dist/style.css">
+
+</head>
+
+<body class="projects">
+
+    <main class="main">
+        <!-- Video-player start -->
+        <section class="player">
+            <div class="player__wrapper">
+                <div class="player__video_container">
+                    <video poster="" class="video" src="video/forest life.mp4"></video>
+
+                    <div class="speed__progress-background">
+                        <div class="funny__column-speed">
+                            <span class="speed-choose"></span>
+                        </div>
+                    </div>
+
+                    <div class="player__control_duration z-index">
+                        <div class="fas fa-backward button_back"></div>
+                        <div class="fas fa-forward button_forward"></div>
+                    </div>
+                </div>
+
+                <div class="duration__control">
+                    <div class="duration__progress-background">
+                        <div class="duration__progress-bar"></div>
+                        <div class="duration__control-circle"></div>
+                    </div>
+                </div>
+
+                <div class="player__control">
+
+                    <div class="player__control_wrapper1">
+                        <div class="fas fa-step-backward button_previous" title="Previous"></div>
+                        <div class="fas fa-play button_play"></div>
+                        <div class="fas fa-pause button_pause hidden"></div>
+                        <div class="fas fa-step-forward button_next" title="Next"></div>
+
+                        <div class="fas fa-volume-off button_muted-off" title="Mute"></div>
+                        <div class="fas fa-volume-mute button_muted-on hidden" title="Unmute"></div>
+
+                        <div class="volume__control" title="Volume">
+                            <div class="volume__progress-background">
+                                <div class="volume__progress-bar"></div>
+                                <div class="volume__control-circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="playing-time"></div>
+                    </div>
+
+                    <div class="player__control_wrapper2">
+                        <div class="fas fa-sync-alt button_repeat" title="Repeat"></div>
+
+                        <div class="fas fa-cog icon_player-rate" title="Playback speed"></div>
+                    </div>
+                </div>
+        </section>
+        <!-- Video-player end -->
+    </main>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+</body>
+
+</html>
