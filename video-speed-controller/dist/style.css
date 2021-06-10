@@ -1,58 +1,57 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
 html {
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 body {
-    margin: 0;
+    margin: 0
 }
 
 main {
-    display: block;
+    display: block
 }
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    margin: 0.67em 0
 }
 
 hr {
     box-sizing: content-box;
     height: 0;
-    overflow: visible;
+    overflow: visible
 }
 
 pre {
     font-family: monospace, monospace;
-    font-size: 1em;
+    font-size: 1em
 }
 
 a {
-    background-color: transparent;
+    background-color: transparent
 }
 
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
-    text-decoration: underline dotted;
+    text-decoration: underline dotted
 }
 
 b,
 strong {
-    font-weight: bolder;
+    font-weight: bolder
 }
 
 code,
 kbd,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em;
+    font-size: 1em
 }
 
 small {
-    font-size: 80%;
+    font-size: 80%
 }
 
 sub,
@@ -60,19 +59,19 @@ sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
-    vertical-align: baseline;
+    vertical-align: baseline
 }
 
 sub {
-    bottom: -0.25em;
+    bottom: -0.25em
 }
 
 sup {
-    top: -0.5em;
+    top: -0.5em
 }
 
 img {
-    border-style: none;
+    border-style: none
 }
 
 button,
@@ -83,24 +82,24 @@ textarea {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
-    margin: 0;
+    margin: 0
 }
 
 button,
 input {
-    overflow: visible;
+    overflow: visible
 }
 
 button,
 select {
-    text-transform: none;
+    text-transform: none
 }
 
 button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance: button;
+    -webkit-appearance: button
 }
 
 button::-moz-focus-inner,
@@ -108,18 +107,18 @@ button::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
     border-style: none;
-    padding: 0;
+    padding: 0
 }
 
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText
 }
 
 fieldset {
-    padding: 0.35em 0.75em 0.625em;
+    padding: 0.35em 0.75em 0.625em
 }
 
 legend {
@@ -128,124 +127,124 @@ legend {
     display: table;
     max-width: 100%;
     padding: 0;
-    white-space: normal;
+    white-space: normal
 }
 
 progress {
-    vertical-align: baseline;
+    vertical-align: baseline
 }
 
 textarea {
-    overflow: auto;
+    overflow: auto
 }
 
 [type="checkbox"],
 [type="radio"] {
     box-sizing: border-box;
-    padding: 0;
+    padding: 0
 }
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-    height: auto;
+    height: auto
 }
 
 [type="search"] {
     -webkit-appearance: textfield;
-    outline-offset: -2px;
+    outline-offset: -2px
 }
 
 [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+    -webkit-appearance: none
 }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit;
+    font: inherit
 }
 
 details {
-    display: block;
+    display: block
 }
 
 summary {
-    display: list-item;
+    display: list-item
 }
 
 template {
-    display: none;
+    display: none
 }
 
 [hidden] {
-    display: none;
+    display: none
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
     font-weight: normal;
-    font-style: normal;
+    font-style: normal
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Bold.ttf) format("truetype");
     font-weight: bold;
-    font-style: normal;
+    font-style: normal
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Italic.ttf) format("truetype");
     font-weight: normal;
-    font-style: italic;
+    font-style: italic
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
     font-weight: normal;
-    font-style: normal;
+    font-style: normal
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Bold.ttf) format("truetype");
     font-weight: bold;
-    font-style: normal;
+    font-style: normal
 }
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     src: url(../fonts/Lato/Lato-Italic.ttf) format("truetype");
     font-weight: normal;
-    font-style: italic;
+    font-style: italic
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 @font-face {
     font-family: "Lato";
     src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
     font-weight: normal;
-    font-style: normal;
+    font-style: normal
 }
 
 html {
     box-sizing: border-box;
-    user-select: none;
+    user-select: none
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: inherit
 }
 
 body {
@@ -256,7 +255,7 @@ body {
     line-height: 1.2;
     font-weight: normal;
     margin: 0 auto;
-    color: white;
+    color: white
 }
 
 .player {
@@ -264,54 +263,54 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #298ed3;
-    background-color: #e89aa6;
+    background-color: #298ED3;
+    background-color: #E89AA6;
     background-image: url(../img/background/blur.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat
 }
 
 .player__wrapper {
     overflow-x: hidden;
     max-width: 1280px;
-    margin: 10px;
+    margin: 10px
 }
 
 .player__video_container {
     display: flex;
     width: 100%;
-    position: relative;
+    position: relative
 }
 
 .video {
     width: 100%;
-    z-index: 5;
+    z-index: 5
 }
 
 .video:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .video:active {
-    opacity: 0.8;
-    filter: alpha(opacity=80) black;
+    opacity: .8;
+    filter: alpha(opacity=80) black
 }
 
 .duration__control {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .duration__control:hover,
 .volume__control:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .duration__control>div,
 .volume__control>div {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .duration__progress-background,
@@ -321,11 +320,11 @@ body {
     width: 100%;
     height: 4px;
     background: #282839;
-    border-radius: 50px;
+    border-radius: 50px
 }
 
 .volume__progress-background {
-    width: 100px;
+    width: 100px
 }
 
 .duration__progress-bar,
@@ -334,7 +333,7 @@ body {
     height: 4px;
     background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 50px;
-    filter: drop-shadow(0px 1px 12px rgba(66, 66, 73, 0.25));
+    filter: drop-shadow(0px 1px 12px rgba(66, 66, 73, 0.25))
 }
 
 .duration__control-circle,
@@ -343,86 +342,86 @@ body {
     width: 18px;
     height: 18px;
     background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-    border-radius: 50px;
+    border-radius: 50px
 }
 
 .player__control_duration>div {
     position: absolute;
     bottom: 20px;
-    z-index: 10;
+    z-index: 10
 }
 
 .player__control_duration>div:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .player__control_duration>div:first-child {
     padding-left: 10px;
     left: 0%;
-    transform: translateX(-30px);
+    transform: translateX(-30px)
 }
 
 .player__control_duration>div:last-child {
     padding-right: 10px;
     right: 0%;
-    transform: translateX(30px);
+    transform: translateX(30px)
 }
 
 .player__control_duration>div:active {
-    opacity: 0.5;
-    filter: alpha(opacity=50) black;
+    opacity: .5;
+    filter: alpha(opacity=50) black
 }
 
 .player__wrapper:hover .player__control_duration>div:first-child,
 .player__wrapper:hover .player__control_duration>div:last-child {
-    transform: translateX(0);
+    transform: translateX(0)
 }
 
 .player__control {
     display: flex;
     margin: 10px;
     justify-content: space-between;
-    transform: translateY(-100%) translateY(-20px);
+    transform: translateY(-100%) translateY(-20px)
 }
 
 .player__wrapper:hover .player__control {
-    transform: translateY(0);
+    transform: translateY(0)
 }
 
 .player__control_wrapper1,
 .player__control_wrapper2 {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .player__control>.player__control_wrapper1>div,
 .player__control>.player__control_wrapper2>div {
     margin-right: 10px;
-    font-size: 26px;
+    font-size: 26px
 }
 
 .player__control>.player__control_wrapper1>div:hover,
 .player__control>.player__control_wrapper2>div:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .player__control>.player__control_wrapper1>div:active,
 .player__control>.player__control_wrapper2>div:active {
-    opacity: 0.5;
-    filter: alpha(opacity=50) black;
+    opacity: .5;
+    filter: alpha(opacity=50) black
 }
 
 .player__control>.player__control_wrapper1>div:last-child,
 .player__control>.player__control_wrapper2>div:last-child {
-    margin-right: 0px;
+    margin-right: 0px
 }
 
 .player__control>.player__control_wrapper1>.playing-time {
-    font-size: 18px;
+    font-size: 18px
 }
 
 .icon_player-rate {
-    transition: 0.5s all linear;
+    transition: .5s all linear
 }
 
 .speed__progress-background {
@@ -436,16 +435,16 @@ body {
     border-radius: 5px;
     transform: translateX(100%);
     transition: 1s all;
-    mix-blend-mode: screen;
+    mix-blend-mode: screen
 }
 
 .speed__progress-background:hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .opened {
     transform: translateX(0);
-    transition: 1.5s all;
+    transition: 1.5s all
 }
 
 .funny__column-speed {
@@ -456,89 +455,95 @@ body {
     right: 0;
     z-index: 10;
     width: 100%;
-    background: linear-gradient( 180deg, #3f87a6, #ebf8e1, #e89aa6, #ebf8e1, #3f87a6);
+    background: linear-gradient(180deg, #3f87a6, #ebf8e1, #E89AA6, #ebf8e1, #3f87a6);
     background-size: 100% 400%;
     border-radius: 5px;
-    transition: 1s all;
+    transition: 1s all
 }
 
 .funny__column-speed:hover {
     animation: animate 10s linear infinite;
-    cursor: pointer;
+    cursor: pointer
 }
 
 @keyframes animate {
     0% {
-        background-position: 0 400%;
+        background-position: 0 400%
     }
+
     100% {
-        background-position: 0 0;
+        background-position: 0 0
     }
 }
 
 .speed-choose {
     font-size: 0;
-    transition: 1s all;
+    transition: 1s all
 }
 
 .speed__progress-background.opened .speed-choose {
     font-size: 16px;
-    transition: 1s all;
+    transition: 1s all
 }
 
 @media screen and (max-width: 375px) and (min-width: 320px) {
     .player__control_speed {
         right: 75px;
-        margin-bottom: 25px;
+        margin-bottom: 25px
     }
+
     .player__control_duration>div {
-        bottom: 55px;
+        bottom: 55px
     }
+
     .volume__progress-background {
-        width: 85px;
+        width: 85px
     }
+
     .player__control>.player__control_wrapper1>div,
     .player__control>.player__control_wrapper2>div {
         margin-right: 5px;
-        font-size: 22px;
+        font-size: 22px
     }
+
     .player__control>.player__control_wrapper1>.playing-time {
-        font-size: 17px;
+        font-size: 17px
     }
+
     .opened {
         font-size: 14px;
         width: 70px;
-        transition: 0.5s all;
+        transition: .5s all
     }
 }
 
 .rotated {
     transform: rotate(-90deg);
-    transition: 0.5s all linear;
+    transition: .5s all linear
 }
 
 .active {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .active::before {
     content: "\f00c";
-    font-family: "FontAwesome";
+    font-family: "FontAwesome"
 }
 
 .default-value {
-    color: yellowgreen;
+    color: yellowgreen
 }
 
 .maximum-value {
-    color: red;
+    color: red
 }
 
 .hidden {
-    display: none;
+    display: none
 }
 
 .block {
-    display: block;
+    display: block
 }
