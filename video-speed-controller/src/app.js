@@ -157,6 +157,8 @@ const nextVideo = () => {
     }
     video.src = "./video/" + videosSRC[videoIndex];
     playVideo();
+    speedDisplay.textContent = video.playbackRate;
+    speedRange.style.height = (video.playbackRate / maxSpeedRange) * 100 + "%";
 };
 
 const previousVideo = () => {
@@ -164,8 +166,10 @@ const previousVideo = () => {
         videoIndex = videosSRC.length
     }
     videoIndex--;
-    video.src = "/video/" + videosSRC[videoIndex];
+    video.src = "./video/" + videosSRC[videoIndex];
     playVideo();
+    speedDisplay.textContent = video.playbackRate;
+    speedRange.style.height = (video.playbackRate / maxSpeedRange) * 100 + "%";
 };
 
 
